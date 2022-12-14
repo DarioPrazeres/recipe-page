@@ -18,6 +18,9 @@ h1{
 }
 p{
     font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 5px 0px 5px 0px;
 }
 .first-p, h1{
     width: 58%;
