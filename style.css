@@ -15,12 +15,13 @@ section{
 }
 h1{
     font-size: 48px;
+    font-family: Montserrat serif;
 }
 p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    padding: 5px 0px 5px 0px;
+    padding: 7px 0px 7px 0px;
 }
 .first-p, h1{
     width: 58%;
@@ -77,4 +78,46 @@ p{
 .disc-1 img{
     width: 40px;
     height: 40px;
+}
+.check{
+ width: 20px;
+ height: 20px;  
+}
+.p-2{
+    display: grid;
+    grid-template-columns: 20px auto;
+    align-items: center;
+    gap: 7px;
+    margin: 7px 0px 7px 0px;
+}
+.italic{
+    text-transform: i;
+}
+.special{
+    font-weight: 100;
+    font-size: 22px;
+}
+/*----------Instructions Style ------------*/
+span{
+    width: 36px;
+    height: 36px;
+    background-color: #f2994a;
+    border-radius: 6px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.p-1{
+    display: grid;
+    grid-template-columns: 40px auto;
+    padding: 5px 5px 5px 0px;
+    margin: 15px 0px 15px 0px;
+}
+.linkSource, .linkSource a{
+    color: silver;
+    font-size: 18px;
+    text-decoration: none;
 }
