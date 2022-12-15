@@ -177,6 +177,7 @@ footer a{
         width: 100%;
     }
     .part-1{
+        width: 90%;
         margin: 10px 0px 20px 0px;
     }
     .part-s{
@@ -201,5 +202,19 @@ footer a{
     .disc p{
         font-size: 12px;
     }
-
+    .p-2{
+    }
+    .check{
+        align-self: flex-start;
+        margin-top: 10px;
+    }
+    .linkSource{
+        width: 90%;
+    }
 }
+@media only screen and (max-width: 800px) {
+    .img-post{
+        height: 170px;
+    }
+}
+
