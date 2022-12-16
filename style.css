@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,52 +11,65 @@ body{
     margin-top: 80px;
     font-family: Montserrat;
 }
-section{
+
+section {
     width: 67%;
 }
-h1{
+
+h1 {
     font-size: 48px;
     font-family: Montserrat serif;
 }
-p{
+
+p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     padding: 7px 0px 7px 0px;
 }
-.first-p, h1{
+
+.first-p,
+h1 {
     width: 58%;
 }
-.first-p p{
+
+.first-p p {
     width: 80%;
 }
-.first-p{
+
+.first-p {
     display: flex;
 }
-.first-p img{
+
+.first-p img {
     width: 40px;
     height: 15px;
     margin: 0px 4px 0px 0px;
 }
-.img-post{
+
+.img-post {
     display: flex;
     height: 600px;
 }
-.img-post img{
+
+.img-post img {
     height: 100%;
 }
+
 /*------------ Ingredients Style------------------*/
-.ingredients{
+.ingredients {
     padding: 10px 0px 10px 0px;
     display: flex;
     justify-content: space-between;
     width: 97%;
 }
-.part-1{
+
+.part-1 {
     margin-right: 20px;
     width: 63%;
 }
-.part-s{
+
+.part-s {
     border-radius: 12px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     background-color: #fff;
@@ -66,43 +80,55 @@ p{
     align-items: center;
     flex-direction: column;
 }
-.disc{
+
+.disc {
     padding: 5px;
     margin: 7px;
 }
-.disc-1{
+
+.disc-1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.disc-1 img{
+
+.disc-1 img {
     width: 40px;
     height: 40px;
 }
-.check{
- width: 20px;
- height: 20px;  
+
+.check {
+    width: 20px;
+    height: 20px;
 }
-.disc p{
+
+.disc p {
     font-size: 15px;
 }
-.p-2{
+
+.p-2 {
     display: grid;
     grid-template-columns: 20px auto;
     align-items: center;
     gap: 7px;
     margin: 7px 0px 7px 0px;
 }
-.italic{
+
+.italic {
     text-transform: i;
 }
-.special{
-    font-weight: 100;
-    font-size: 22px;
+
+.special {
     margin: 15px 0px 15px 0px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
 }
+
 /*----------Instructions Style ------------*/
-span{
+span {
     width: 36px;
     height: 36px;
     background-color: #f2994a;
@@ -114,73 +140,93 @@ span{
     color: white;
     font-size: 20px;
 }
-.p-1{
+
+.p-1 {
     display: grid;
     grid-template-columns: 40px auto;
     padding: 5px 5px 5px 0px;
     margin: 15px 0px 15px 0px;
 }
-.linkSource, .linkSource a{
+
+.linkSource,
+.linkSource a {
     color: silver;
     font-size: 18px;
     text-decoration: none;
 }
+
 /*-----------Fotter Style ----------------*/
-footer{
+footer {
     margin-top: 50px;
 }
-footer p{
+
+footer p {
     text-align: center;
     color: rgb(144, 142, 142);
     font-size: 16px;
 }
-footer a{
+
+footer a {
     color: rgb(103, 102, 102);
 }
+
 /*----------Mobile Version-----*/
 @media only screen and (max-width: 1000px) {
-    section{
+    section {
         width: 90%;
     }
-    .first-p, h1{
+
+    .first-p,
+    h1 {
         width: 98%;
     }
-    .img-post{
+
+    .img-post {
         display: flex;
         height: 380px;
     }
 }
+
 @media only screen and (max-width: 800px) {
-    body{
+    body {
         width: 100wh;
         margin-left: 15px;
     }
-    section{
+
+    section {
         width: 100%;
     }
-    h1{
+
+    h1 {
         font-size: 30px;
     }
-    .first-p, h1{
+
+    .first-p,
+    h1 {
         width: 95%;
         margin: 5px 0px 7px 0px;
     }
-    .first-p p{
+
+    .first-p p {
         width: 80%;
     }
-    .img-post{
+
+    .img-post {
         display: flex;
         height: 200px;
     }
-    .ingredients{
+
+    .ingredients {
         flex-wrap: wrap-reverse;
         width: 100%;
     }
-    .part-1{
+
+    .part-1 {
         width: 90%;
         margin: 10px 0px 20px 0px;
     }
-    .part-s{
+
+    .part-s {
         display: grid;
         width: 100%;
         height: auto;
@@ -188,33 +234,39 @@ footer a{
         margin: 10px 0px 20px 0px;
         padding: 5px;
     }
-    .disc-1 img{
+
+    .disc-1 img {
         width: 25px;
         height: 25px;
     }
-    .disc-1{
+
+    .disc-1 {
         width: 150px;
     }
-    .disc-2{
+
+    .disc-2 {
         grid-column: 1/4;
         justify-content: left;
     }
-    .disc p{
+
+    .disc p {
         font-size: 12px;
     }
-    .p-2{
-    }
-    .check{
+
+    .p-2 {}
+
+    .check {
         align-self: flex-start;
         margin-top: 10px;
     }
-    .linkSource{
+
+    .linkSource {
         width: 90%;
     }
 }
+
 @media only screen and (max-width: 800px) {
-    .img-post{
+    .img-post {
         height: 170px;
     }
 }
-
